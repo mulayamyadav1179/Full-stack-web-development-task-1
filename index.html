@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Mogra&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Knewave&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Momo+Signature&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <a href="#" class="logo">Mulayam</a>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="hero">
+      <div class="container hero-content">
+        <h1>Hi, I'm <span class="highlight">Mulayam Yadav</span></h1>
+        <p>
+          Resourceful Front End Web Developer brings in-depth knowledge of the
+          latest technology trends to produce clean website design and handling
+          HTML and CSS coding, design, and extensions to meet the organization's
+          front-facing internet needs.
+        </p>
+        <a href="#projects" class="btn">View My Work</a>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I am passionate about building excellent software that improves
+              the lives of those around me. I specialize in creating software
+              for clients ranging from individuals and small-businesses all the
+              way to large enterprise corporations.
+            </p>
+            <br />
+            <p>
+              <strong>Tech Stack:</strong> HTML, CSS, JavaScript, React, Node.js
+            </p>
+          </div>
+          <div class="about-img">
+            <div class="img-placeholder">
+              <img src="img.jpg" alt="" height="100%" width="100%" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section bg-light">
+      <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+          <div class="card">
+            <div class="card-img"></div>
+            <div class="card-body">
+              <h3>E-Commerce Dashboard</h3>
+              <p>
+                A responsive dashboard with dark mode and data visualization.
+              </p>
+              <a href="#" class="btn-sm">Demo</a>
+              <a href="#" class="btn-sm outline">Code</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img"></div>
+            <div class="card-body">
+              <h3>Task Manager App</h3>
+              <p>A drag-and-drop task management tool using LocalStorage.</p>
+              <a href="#" class="btn-sm">Demo</a>
+              <a href="#" class="btn-sm outline">Code</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img"></div>
+            <div class="card-body">
+              <h3>Weather API Tracker</h3>
+              <p>Real-time weather tracking using OpenWeatherMap API.</p>
+              <a href="#" class="btn-sm">Demo</a>
+              <a href="#" class="btn-sm outline">Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <form class="contact-form">
+          <input type="text" placeholder="Name" required />
+          <input type="email" placeholder="Email" required />
+          <textarea placeholder="Message" rows="5" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 Alex Developer. All Rights Reserved.</p>
+        <div class="socials">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
